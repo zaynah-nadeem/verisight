@@ -1,0 +1,26 @@
+# secrets
+.env
+*.env
+!.env.example
+
+# python
+backend/venv/
+__pycache__/
+*.pyc
+
+# node / expo
+mobile/node_modules/
+mobile/.expo/
+
+# big or private data
+backend/models/
+backend/cache/
+backend/uploads/
+backend/test_set/
+*.db
+*.sqlite
+*.log
+
+# test outputs
+backend/heatmap_*.png
+backend/evaluation_results.csv
